@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	nome := "Eduardo"
 	idade := 34
@@ -25,10 +27,8 @@ func main() {
 	print(usuarios)
 
 	var valorInicial int = 4
-	println(valorInicial)
-	var valorConvertido float64 = float64(valorInicial) / 2
-	println(valorConvertido)
 
-	var divisaoNumero uint = uint(valorConvertido)
-	println(divisaoNumero)
+	var valorConvertido float64 = float64(valorInicial) / 2
+
+	fmt.Printf("%.2f\n", valorConvertido)
 }
