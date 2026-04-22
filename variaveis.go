@@ -8,7 +8,7 @@ func main() {
 
 	println(nome, idade)
 
-	//constantes
+	//constantes...
 	const PI = 3.14159
 
 	// Conversão de tipos
